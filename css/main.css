@@ -24,11 +24,9 @@ ul li{
 
 /* Navigation */
 .nav .nav-section {
-    margin: 14px 0;
-    position: fixed;
+    position: relative;
     left: 0;
     right: 0;
-    top: -15px;
     padding: 13px 55px;
     z-index: 1;
     background-color: #fff;
@@ -70,11 +68,11 @@ ul li{
 
 /* Dropdown Menu */
 .nav .nav-section .dropdown-menu {
-    position: fixed;
+    position: absolute;
     display: flex;
     margin: auto;
-    top: 55px;
-    left: 3px;
+    top: 56px;
+    left: 150px;
     max-width: 1238px;
     right: 0;
     border: 1px solid #e3e3e3;
